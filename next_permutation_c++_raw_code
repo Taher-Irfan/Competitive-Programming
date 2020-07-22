@@ -1,0 +1,16 @@
+do
+     {
+         for(auto x: v)
+         {
+             cout<<x<<" ";
+         }
+         cout<<endl;
+          for(auto x: v1)
+         {
+             cout<<x<<" ";
+         }
+         cout<<endl;
+         next_permutation(v1.begin(),v1.end());
+
+
+     }while(next_perm(v));
